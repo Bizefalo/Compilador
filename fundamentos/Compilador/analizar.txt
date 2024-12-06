@@ -1,0 +1,22 @@
+MIAU x = 5;
+MIAUMIAU y = 10.5;
+GARRITA z = true;
+
+PRINTCAT(x);
+PRINTCAT(y);
+PRINTCAT(z);
+
+GATITO (x < y) {
+    PRINTCAT("x es menor que y");
+} GATOTE {
+    PRINTCAT("x no es menor que y");
+}
+
+x = x + 10;
+PRINTCAT(x);
+
+z = false;
+PRINTCAT(z);
+
+GARRITA resultado = (x > 0) and (y < 20);
+PRINTCAT(resultado);
